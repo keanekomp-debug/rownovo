@@ -1,0 +1,9 @@
+{
+  "nav": {
+    "about": "About",
+    "technology": "Technology",
+    "hardware": "Hardware",
+    "tracker": "Tracker",
+    "data": "Data"
+  }
+}
