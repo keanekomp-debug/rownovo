@@ -3,52 +3,42 @@
     {
       "id": "RB-001",
       "name": "Tejo — Santarém Station",
-      "river": "Rio Tejo",
       "status": "online",
       "lat": 39.2369,
       "lng": -8.6861,
-      "lastUpdated": "2024-11-15T14:32:00Z",
       "readings": {
         "ph": 7.4,
         "temperature": 16.2,
         "dissolvedOxygen": 8.9,
         "conductivity": 312,
-        "orp": 180,
         "turbidity": 4.2
       }
     },
     {
       "id": "RB-002",
       "name": "Mondego — Coimbra Station",
-      "river": "Rio Mondego",
       "status": "online",
       "lat": 40.2033,
       "lng": -8.4103,
-      "lastUpdated": "2024-11-15T14:31:00Z",
       "readings": {
         "ph": 7.1,
         "temperature": 14.8,
         "dissolvedOxygen": 9.3,
         "conductivity": 285,
-        "orp": 195,
         "turbidity": 3.1
       }
     },
     {
       "id": "RB-003",
       "name": "Tejo — Abrantes Station",
-      "river": "Rio Tejo",
       "status": "alert",
-      "alertReason": "Turbidity spike detected — possible upstream runoff event",
       "lat": 39.4637,
       "lng": -8.1981,
-      "lastUpdated": "2024-11-15T14:29:00Z",
       "readings": {
         "ph": 6.8,
         "temperature": 15.9,
         "dissolvedOxygen": 7.2,
         "conductivity": 498,
-        "orp": 142,
         "turbidity": 28.7
       }
     }
