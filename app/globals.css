@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #0B0F1A;
+  --color-surface: #131929;
+  --color-surface-2: #1A2438;
+  --color-border: #1E2D40;
+  --color-primary: #00B4D8;
+  --color-primary-deep: #0077B6;
+  --color-text: #E8EDF5;
+  --color-muted: #7A8BA6;
+}
+
+html, body {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-6;
+}
