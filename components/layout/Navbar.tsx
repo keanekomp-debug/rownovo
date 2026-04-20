@@ -19,6 +19,7 @@ export default function Navbar() {
           <Link href="/technology">{t("technology")}</Link>
           <Link href="/hardware">{t("hardware")}</Link>
           <Link href="/tracker">{t("tracker")}</Link>
+          <Link href="/impact">Impact</Link> 
           <Link href="/data">{t("data")}</Link>
         </div>
 
