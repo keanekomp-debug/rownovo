@@ -1,13 +1,11 @@
 {
-  "nav": {
-    "about": "About",
-    "technology": "Technology",
-    "hardware": "Hardware",
-    "tracker": "Tracker",
-    "data": "Data"
-  },
-  "tracker": {
-    "title": "Live River Monitoring",
-    "select": "Select a buoy to view live data"
+  "about": {
+    "title": "About Rowbot",
+    "intro": "Rowbot is an open-source environmental monitoring system built to make rivers visible in real time.",
+    "originTitle": "Origin",
+    "origin": "The project began as an attempt to build a low-cost, deployable water monitoring system.",
+    "timelineTitle": "Timeline",
+    "creatorTitle": "Creator",
+    "creator": "Aditya is a 17-year-old student building real-world environmental systems."
   }
 }
