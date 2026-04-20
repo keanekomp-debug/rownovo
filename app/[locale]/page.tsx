@@ -9,24 +9,19 @@ import Card from "@/components/ui/Card";
 export default function HomePage() {
   return (
     <>
-      {/* HERO */}
       <HeroSection />
 
       <WaveDivider />
 
-      {/* STATS */}
       <StatsStrip />
 
-      {/* MISSION */}
       <MissionSection />
 
-      {/* HOW IT WORKS */}
       <HowItWorksSection />
 
-      {/* 🔥 IMPACT / GRANT-READY SECTION (THIS IS THE NEW PART) */}
+      {/* IMPACT SECTION */}
       <section className="container py-20 grid md:grid-cols-2 gap-6">
 
-        {/* POLICY BLOCK */}
         <Card>
           <h3 className="font-heading mb-2">Policy Alignment</h3>
           <ul className="text-muted text-sm space-y-2">
@@ -36,7 +31,6 @@ export default function HomePage() {
           </ul>
         </Card>
 
-        {/* TIMELINE BLOCK */}
         <Card>
           <h3 className="font-heading mb-2">Deployment Timeline</h3>
           <ul className="text-muted text-sm space-y-2">
@@ -48,7 +42,6 @@ export default function HomePage() {
 
       </section>
 
-      {/* CTA */}
       <CTASection />
     </>
   );
