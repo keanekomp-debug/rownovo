@@ -1,26 +1,21 @@
 "use client";
 
-import { MapContainer, TileLayer, Marker } from "react-leaflet";
-import "leaflet/dist/leaflet.css";
+import { MapContainer, TileLayer, CircleMarker } from "react-leaflet";
 
 export default function BuoyMap({ buoys, onSelect }: any) {
   return (
-    <MapContainer
-      center={[39.5, -8.0]}
-      zoom={7}
-      className="h-full w-full"
-    >
-      <TileLayer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
+    <MapContainer center={[39.5, -8]} zoom={7} className="h-full w-full">
+      <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
 
       {buoys.map((b: any) => (
-        <Marker
+        <CircleMarker
           key={b.id}
-          position={[b.lat, b.lng]}
-          eventHandlers={{
-            click: () => onSelect(b)
+          center={[b.lat, b.lng]}
+          radius={10}
+          pathOptions={{
+            color: b.status === "alert" ? "#E63946" : "#52B788"
           }}
+          eventHandlers={{ click: () => onSelect(b) }}
         />
       ))}
     </MapContainer>
