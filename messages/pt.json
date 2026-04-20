@@ -5,5 +5,9 @@
     "hardware": "Hardware",
     "tracker": "Monitorização",
     "data": "Dados"
+  },
+  "tracker": {
+    "title": "Monitorização em Tempo Real",
+    "select": "Selecione uma bóia"
   }
 }
