@@ -27,3 +27,8 @@ html, body {
   border-radius: 1rem;
   padding: 1.5rem;
 }
+/* app/globals.css */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
