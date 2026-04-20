@@ -5,5 +5,9 @@
     "hardware": "Hardware",
     "tracker": "Tracker",
     "data": "Data"
+  },
+  "tracker": {
+    "title": "Live River Monitoring",
+    "select": "Select a buoy to view live data"
   }
 }
