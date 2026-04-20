@@ -1,0 +1,7 @@
+{
+  "deployment_target": 10,
+  "cost_per_unit": 5202,
+  "total_budget": 52020,
+  "rivers_covered": 5,
+  "data_points_per_day": 50000
+}
