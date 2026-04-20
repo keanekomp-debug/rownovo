@@ -1,4 +1,5 @@
 import LanguageToggle from "./LanguageToggle";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -11,11 +12,11 @@ export default function Footer() {
           </p>
         </div>
 
-        <div className="text-sm text-muted">
-          <p>About</p>
-          <p>Technology</p>
-          <p>Hardware</p>
-          <p>Tracker</p>
+        <div className="text-sm text-muted space-y-1">
+          <Link href="/about">About</Link>
+          <Link href="/technology">Technology</Link>
+          <Link href="/hardware">Hardware</Link>
+          <Link href="/tracker">Tracker</Link>
         </div>
 
         <div className="flex justify-end">
@@ -24,7 +25,9 @@ export default function Footer() {
       </div>
 
       <div className="text-center text-xs text-muted pb-6">
-        © 2024 Aditya Neil Banerjee (aditya.pt)
+        <Link href="/privacy">Privacy</Link> |{" "}
+        <Link href="/cookies">Cookies</Link> <br />
+        © 2024 Aditya (aditya.pt)
       </div>
     </footer>
   );
