@@ -1,31 +1,28 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 export default function StatsStrip() {
-  const [count, setCount] = useState(0);
-
-  useEffect(() => {
-    let i = 0;
-    const interval = setInterval(() => {
-      i += 300;
-      if (i >= 14823) {
-        i = 14823;
-        clearInterval(interval);
-      }
-      setCount(i);
-    }, 20);
-  }, []);
+  const stats = [
+    { label: "Buoys Online", value: 3 },
+    { label: "Rivers", value: 2 },
+    { label: "Data Points Today", value: 14823 },
+    { label: "Datasets", value: 12 }
+  ];
 
   return (
-    <div className="border-y border-border py-6 text-center">
-      <div className="grid grid-cols-2 md:grid-cols-6 gap-6 text-sm">
-        <div>Buoys: 3</div>
-        <div>Rivers: 2</div>
-        <div>Data Today: {count}</div>
-        <div>Countries: 1</div>
-        <div>Datasets: 12</div>
-        <div>Cost: $5,202</div>
+    <div className="border-y border-border py-10">
+      <div className="container grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        {stats.map((s, i) => (
+          <motion.div
+            key={i}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+          >
+            <div className="text-3xl font-mono text-data">{s.value}</div>
+            <div className="text-muted text-sm">{s.label}</div>
+          </motion.div>
+        ))}
       </div>
     </div>
   );
