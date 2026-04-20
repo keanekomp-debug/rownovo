@@ -3,7 +3,13 @@ import { getMessages } from "next-intl/server";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
-export default async function LocaleLayout({ children, params }: any) {
+export default async function LocaleLayout({
+  children,
+  params
+}: {
+  children: React.ReactNode;
+  params: { locale: string };
+}) {
   const messages = await getMessages();
 
   return (
@@ -16,20 +22,5 @@ export default async function LocaleLayout({ children, params }: any) {
         </NextIntlClientProvider>
       </body>
     </html>
-  );
-}
-"use client";
-
-import { motion } from "framer-motion";
-
-export default function LayoutWrapper({ children }: any) {
-  return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.4 }}
-    >
-      {children}
-    </motion.div>
   );
 }
