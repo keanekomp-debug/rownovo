@@ -1,0 +1,35 @@
+{
+  "items": [
+    { "component": "Main Control Unit", "name": "Raspberry Pi CM4 + IO Board", "category": "Electrical", "qty": 1, "unit": 130 },
+    { "component": "Solar Panel Array", "name": "200W Flexible Monocrystalline", "category": "Electrical", "qty": 1, "unit": 250 },
+    { "component": "MPPT Charge Controller", "name": "Victron SmartSolar MPPT 100/20", "category": "Electrical", "qty": 1, "unit": 150 },
+    { "component": "Main Battery", "name": "24V 50Ah LiFePO4 with BMS", "category": "Electrical", "qty": 1, "unit": 400 },
+    { "component": "Power Distribution Board", "name": "Custom PDB 24V 100A", "category": "Electrical", "qty": 1, "unit": 30 },
+    { "component": "12V Regulator", "name": "Victron Orion-Tr 24/12-20A", "category": "Electrical", "qty": 1, "unit": 100 },
+    { "component": "5V Regulator", "name": "Traco TSR 1-2450", "category": "Electrical", "qty": 1, "unit": 20 },
+    { "component": "ESC", "name": "BLDC ESC 24V 60A Waterproof", "category": "Electrical", "qty": 1, "unit": 80 },
+    { "component": "Thruster", "name": "Blue Robotics T200", "category": "Electrical", "qty": 1, "unit": 150 },
+    { "component": "Linear Actuator", "name": "Waterproof Linear Actuator 24V", "category": "Electrical", "qty": 1, "unit": 120 },
+    { "component": "UV-C Driver", "name": "Constant Current Driver 12V", "category": "Electrical", "qty": 1, "unit": 15 },
+    { "component": "UV-C LED", "name": "High Power UV-C Module", "category": "Electrical", "qty": 1, "unit": 30 },
+    { "component": "Water Probe", "name": "Atlas Scientific EZO-PMP Kit", "category": "Electrical", "qty": 1, "unit": 500 },
+    { "component": "GNSS", "name": "U-blox ZED-F9P", "category": "Electrical", "qty": 1, "unit": 200 },
+    { "component": "IMU", "name": "Bosch BNO085", "category": "Electrical", "qty": 1, "unit": 40 },
+    { "component": "Leak Sensor 1", "name": "DFRobot Leak Sensor", "category": "Electrical", "qty": 1, "unit": 5 },
+    { "component": "Leak Sensor 2", "name": "DFRobot Leak Sensor", "category": "Electrical", "qty": 1, "unit": 5 },
+    { "component": "INA226 Sensor", "name": "Current Monitor", "category": "Electrical", "qty": 1, "unit": 10 },
+    { "component": "ACS712", "name": "30A Current Sensor", "category": "Electrical", "qty": 1, "unit": 8 },
+
+    { "component": "Hull Upper", "name": "HDPE Upper Shell", "category": "Mechanical", "qty": 1, "unit": 1000 },
+    { "component": "Hull Lower", "name": "HDPE Lower Shell", "category": "Mechanical", "qty": 1, "unit": 1000 },
+    { "component": "Hatch", "name": "400mm Gasketed Panel", "category": "Mechanical", "qty": 1, "unit": 100 },
+    { "component": "Gasket", "name": "EPDM Seal", "category": "Mechanical", "qty": 1, "unit": 20 },
+    { "component": "Ribs", "name": "Internal Structure", "category": "Mechanical", "qty": 1, "unit": 200 },
+    { "component": "Sensor Shaft", "name": "HDPE Pipe", "category": "Mechanical", "qty": 1, "unit": 150 },
+    { "component": "Thruster Housing", "name": "HDPE Duct", "category": "Mechanical", "qty": 1, "unit": 80 },
+    { "component": "Mount Plate", "name": "Aluminium Plate", "category": "Mechanical", "qty": 1, "unit": 50 },
+    { "component": "Battery Liner", "name": "Fire-resistant Aluminium", "category": "Mechanical", "qty": 1, "unit": 40 },
+
+    { "component": "3D Parts Set", "name": "Custom Printed Components", "category": "3D Printed", "qty": 1, "unit": 150 }
+  ]
+}
