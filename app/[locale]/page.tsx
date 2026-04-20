@@ -15,3 +15,17 @@ export default function HomePage() {
     </>
   );
 }
+import WaveDivider from "@/components/ui/WaveDivider";
+
+export default function HomePage() {
+  return (
+    <>
+      <HeroSection />
+      <WaveDivider />
+      <StatsStrip />
+      <MissionSection />
+      <HowItWorksSection />
+      <CTASection />
+    </>
+  );
+}
