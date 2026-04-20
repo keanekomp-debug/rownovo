@@ -2,7 +2,11 @@
 
 import { motion } from "framer-motion";
 
-export default function LayoutWrapper({ children }: any) {
+export default function LayoutWrapper({
+  children
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <motion.div
       initial={{ opacity: 0 }}
