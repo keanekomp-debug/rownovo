@@ -1,13 +1,11 @@
 {
-  "nav": {
-    "about": "Sobre",
-    "technology": "Tecnologia",
-    "hardware": "Hardware",
-    "tracker": "Monitorização",
-    "data": "Dados"
-  },
-  "tracker": {
-    "title": "Monitorização em Tempo Real",
-    "select": "Selecione uma bóia"
+  "about": {
+    "title": "Sobre o Rowbot",
+    "intro": "Rowbot é um sistema open-source de monitorização ambiental em tempo real.",
+    "originTitle": "Origem",
+    "origin": "O projeto começou como uma tentativa de criar um sistema acessível de monitorização de água.",
+    "timelineTitle": "Linha do tempo",
+    "creatorTitle": "Criador",
+    "creator": "Aditya é um estudante de 17 anos que constrói sistemas ambientais reais."
   }
 }
