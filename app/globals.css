@@ -21,3 +21,7 @@ html, body {
 .container {
   @apply max-w-7xl mx-auto px-6;
 }
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
