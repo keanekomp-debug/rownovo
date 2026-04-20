@@ -15,9 +15,10 @@ const defaultIcon = L.icon({
 export default function BuoyMap() {
   const [buoys, setBuoys] = useState<any[]>([]);
 
-  useEffect(() => {
-    setBuoys(getBuoys());
-  }, []);
+useEffect(() => {
+  const data = getBuoys();
+  setBuoys(data);
+}, []);
 
   return (
     <MapContainer
